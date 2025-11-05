@@ -1,4 +1,4 @@
-# askTemoc-Embedding-Vector-Store (Person B)
+# askTemoc (Person B)
 
 ## File Structure
 
@@ -37,9 +37,19 @@ CI, Docker/dev environments, OpenAPI/contract tests, RAG evaluation pipeline (De
 
 Build a microservice that:
 
--- Takes in text chunks via an API.
--- Converts them to embedding vectors using a model (e.g. all-MiniLM-L6-v2 or bge-m3).
--- Stores those vectors in a local vector database (Chroma or FAISS).
--- Supports similarity search when given a query vector.
+### 🔄 Input Processing
+- Takes in text chunks via an API endpoint
 
+### 🤖 Embedding Generation  
+- Converts text to embedding vectors using models like:
+  - `all-MiniLM-L6-v2` (lightweight, fast)
+  - `bge-m3` (multilingual, high performance)
 
+### 💾 Vector Storage
+- Stores embeddings in local vector databases:
+  - **Chroma** (recommended for simplicity)
+  - **FAISS** (Facebook's high-performance library)
+
+### 🔍 Search Capabilities
+- Supports similarity search queries
+- Returns most relevant text chunks based on query vectors
