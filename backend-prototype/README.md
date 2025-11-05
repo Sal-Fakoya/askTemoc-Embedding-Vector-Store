@@ -1,5 +1,5 @@
 
-# According to the Notion on the RAG implementation, I worked on Embedding + Vector Store
+# According to the Notion on the implementation, I worked on Embedding + Vector Store
 
 Folder I worked under: ```embeddings_service```. 
 
@@ -37,6 +37,7 @@ INFO:     Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
 ```
 
 🎉 That means your FastAPI embedding service is now live!
+
 
 
 
