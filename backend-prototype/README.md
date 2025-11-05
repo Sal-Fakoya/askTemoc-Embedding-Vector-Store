@@ -1,5 +1,5 @@
 
-# According to the Notion, I am Person C
+# According to the Notion we agreed to, I am Person C
 
 Folder I worked under: ```embeddings_service```. 
 
@@ -37,6 +37,7 @@ INFO:     Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
 ```
 
 🎉 That means your FastAPI embedding service is now live!
+
 
 
 
