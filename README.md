@@ -2,15 +2,25 @@
 
 ## File Structure
 ```
-embeddings_service/
-├── app.py
+asktemoc/
+├── ingestion_service/
+│   └── app.py
+├── embed_service/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── db/
+│   │   └── chroma/
+│   ├── models/
+│   │   └── __init__.py
+│   └── utils/
+│       └── __init__.py
+├── retrieval_service/
+│   └── app.py
+├── generation_service/
+│   └── app.py
+├── docker-compose.yml
 ├── requirements.txt
-├── db/
-│   └── chroma/
-├── models/
-│   └── __init__.py
-└── utils/
-    └── __init__.py
+└── README.md
 ```
 
 ### Person B — Embeddings & Vector Store (Index Team)
