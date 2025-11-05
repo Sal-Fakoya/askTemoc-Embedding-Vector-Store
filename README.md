@@ -1,4 +1,4 @@
-# askTemoc-Embedding-Vector-Store
+# askTemoc-Embedding-Vector-Store (Person B)
 
 High-level split (4 people)
 
